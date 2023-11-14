@@ -14,7 +14,7 @@ const Hero = () => {
             </h1>
             </div>
             <div className='flex flex-col items-center'>
-                <Image src="/images/profile.png" width={200} height={200} alt="me" className='py-6'/>
+                <Image src="/images/profile.png" width={200} height={200} alt="me" className='py-6' unoptimized/>
                 <h2 className="text-white mb-4 text-3xl lg:text-5xl font-bold">
                     <TypeAnimation
                         repeat={Infinity}
