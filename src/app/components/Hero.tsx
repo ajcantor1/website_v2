@@ -31,7 +31,7 @@ const Hero = () => {
                             1000
                         ]}/>
                 </h2>
-                    <ul className="ml-1 flex items-center h-10">
+                    <ul className="ml-1 flex items-center h-10 pb-4 lg:pb-0">
                         <li className="mr-5 text-xs text-[#ADB7BE] hover:text-white">
                             <a className="block" href="https://github.com/ajcantor1">
                                 <span className='sr-only'>Github</span>
