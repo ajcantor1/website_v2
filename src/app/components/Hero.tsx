@@ -29,7 +29,7 @@ const Hero = () => {
                     ]}/>
             </h2>
             <div className='my-4'>
-                <p className="text-[#ADB7BE] text-lg lg:text-xl max-w-xs lg:max-w-none self-center lg:mx-24">
+                <p className="text-[#ADB7BE] text-lg lg:text-xl max-w-xs lg:max-w-md self-center">
                     Self-proclaimed fuller stack engineer with a background in electrical engineering and computer science. I build robots and things that live on the internet, from websites, applications, or anything in between.
                 </p>
             </div>
