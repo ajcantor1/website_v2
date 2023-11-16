@@ -49,7 +49,7 @@ const Projects = () => {
                     <h3 className='font-bold'>Mobile Friendly React JS Switch UI Example.</h3>
                 </div>
             </li>
-            
+
         </ul>
     )
 }

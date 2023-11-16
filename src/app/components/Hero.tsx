@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <header className="lg:sticky lg:top-0 flex lg:max-h-screen lg:w-1/2 flex-col lg:justify-center items-center">
+        <header className="lg:sticky lg:top-0 flex lg:max-h-screen lg:w-1/2 flex-col justify-center items-center">
             <h1 className="text-white text-6xl lg:text-6xl font-extrabold text-center">
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-400'>Hello, I&#39;m{" "}</span> 
                 Jeremy
@@ -29,7 +29,7 @@ const Hero = () => {
                     ]}/>
             </h2>
             <div className='my-4'>
-                <p className="text-[#ADB7BE] text-lg lg:text-xl mx-16 lg:mx-64">
+                <p className="text-[#ADB7BE] text-lg lg:text-xl max-w-xs lg:max-w-none self-center lg:mx-24">
                     Self-proclaimed fuller stack engineer with a background in electrical engineering and computer science. I build robots and things that live on the internet, from websites, applications, or anything in between.
                 </p>
             </div>
